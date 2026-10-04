@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-# Add the production-domain sitemap URL here when the final domain is known.
+Sitemap: https://dr-arjun-verma-clinic.vercel.app/sitemap.xml

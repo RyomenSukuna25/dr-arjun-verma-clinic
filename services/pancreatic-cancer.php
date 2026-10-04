@@ -1,1 +1,0 @@
-<?php $basePath="../"; $pageTitle="Pancreatic Cancer Surgery | Dr. Arjun Verma"; $serviceSlug="pancreatic-cancer"; require_once "../includes/data.php"; $service=array_values(array_filter($services,fn($x)=>$x['slug']===$serviceSlug))[0]; include "../includes/header.php"; include "../includes/service-page.php"; include "../includes/footer.php"; ?>
