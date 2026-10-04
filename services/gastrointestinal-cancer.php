@@ -1,0 +1,1 @@
+<?php $basePath="../"; $pageTitle="Gastrointestinal & Hepatobiliary Cancer Surgery | Dr. Arjun Verma"; $serviceSlug="gastrointestinal-cancer"; require_once "../includes/data.php"; $service=array_values(array_filter($services,fn($x)=>$x['slug']===$serviceSlug))[0]; include "../includes/header.php"; include "../includes/service-page.php"; include "../includes/footer.php"; ?>
